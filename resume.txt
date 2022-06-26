@@ -1,0 +1,20 @@
+var resume =[ {
+    "v" : "Resume",
+    "a" : "name - suresh M",
+    "b" : "email - suresh24988@gmail.com",
+    "c" : "addres - kanyakumari",
+    "d" : "DOB - 24/03/1999",
+    "e" : "Qualificaion - Diploma in computer Engg",
+    "f" : "skills - designing , typing",
+
+}]
+for (var i=0; i<resume.length; i++){
+    console.log(resume[i]["v"]);
+    console.log(resume[i]["a"]);
+    console.log(resume[i]["b"]);
+    console.log(resume[i]["c"]);
+    console.log(resume[i]["d"]);
+    console.log(resume[i]["e"]);
+    console.log(resume[i]["f"]);
+
+}

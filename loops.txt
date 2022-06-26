@@ -1,0 +1,80 @@
+For the given JSON iterate over all for loops
+1. for loop
+var array =[
+    {
+      "id": "1",
+      "name": "Lura Senger",
+      "email": "Xander_Collier@yahoo.com"
+    },
+    {
+      "id": "2",
+      "name": "Wilburn Weber",
+      "email": "Bennett_Kreiger11@yahoo.com"
+    },
+    {
+      "id": "3",
+      "name": "Tyrique Hahn",
+      "email": "Juston.Altenwerth@yahoo.com"
+    },
+    {
+      "id": "4",
+      "name": "Lenny Bailey",
+      "email": "Guiseppe_Hegmann@yahoo.com"
+    },
+    {
+      "id": "5",
+      "name": "Vladimir Keeling",
+      "email": "Louisa_Walsh18@hotmail.com"
+    }];
+  for(var i=0; i<=4; i++) {
+    console.log(i,array[i]["name","id","email"]);
+  }
+
+Output:
+ 0 'Xander_Collier@yahoo.com'
+ 1 'Bennett_Kreiger11@yahoo.com'
+ 2 'Juston.Altenwerth@yahoo.com'
+ 3 'Guiseppe_Hegmann@yahoo.com'
+ 4 'Louisa_Walsh18@hotmail.com'
+
+
+  2.For in loop
+
+  var array =[
+    {
+      "id": "1",
+      "name": "Lura Senger",
+      "email": "Xander_Collier@yahoo.com"
+    },
+    {
+      "id": "2",
+      "name": "Wilburn Weber",
+      "email": "Bennett_Kreiger11@yahoo.com"
+    },
+    {
+      "id": "3",
+      "name": "Tyrique Hahn",
+      "email": "Juston.Altenwerth@yahoo.com"
+    },
+    {
+      "id": "4",
+      "name": "Lenny Bailey",
+      "email": "Guiseppe_Hegmann@yahoo.com"
+    },
+    {
+      "id": "5",
+      "name": "Vladimir Keeling",
+      "email": "Louisa_Walsh18@hotmail.com"
+    }];
+        for (var i in array){
+        console.log(i,array[i]["id","name","email"])
+    }
+
+Output:
+ 0 'Xander_Collier@yahoo.com'
+ 1 'Bennett_Kreiger11@yahoo.com'
+ 2 'Juston.Altenwerth@yahoo.com'
+ 3 'Guiseppe_Hegmann@yahoo.com'
+ 4 'Louisa_Walsh18@hotmail.com'
+
+ 

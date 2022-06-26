@@ -1,0 +1,14 @@
+Difference between window screen and document in javascript:
+
+Window:
+    window is the execution context and global object for that context's JavaScript,
+    Each browser tab has its own top-level window object. Each element has its own window object too, nested within a parent window.
+
+Screen:
+    Screen describes the physical display's full screen,
+    The portion of a screen displaying the rendered document is the viewport in JavaScript, which is potentially confusing because 
+    we call an application's portion of the screen a window when talking about interactions with the operating system
+
+Document:
+    The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
+     When an HTML document is loaded into a web browser ,it becomes a document object. It is the root node of the HTML document
